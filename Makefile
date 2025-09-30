@@ -17,7 +17,7 @@ BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar cr $(NAME) $(OBJS)
+	ar crs $(NAME) $(OBJS)
 
 %.o: %.c
 	$(CC) $(FLAGS) $< -o $@
@@ -29,7 +29,7 @@ fclean: clean
 	rm -f $(NAME)
 
 bonus: fclean $(BONUS_OBJS)
-	ar cr $(NAME) $(BONUS_OBJS)
+	ar crs $(NAME) $(BONUS_OBJS)
 
 re: fclean all
 
