@@ -28,6 +28,8 @@ It reinforces key **programming concepts**:
 * String parsing and formatting
 * Memory management and modular code design
 
+The project is written in accordance with the 42 Norm, ensuring clean, readable, and maintainable code.
+
 > Peer-graded at **42Barcelona** with a final grade of **125/100**, including the bonus.
 
 ---
