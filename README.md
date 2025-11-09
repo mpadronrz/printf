@@ -83,7 +83,13 @@ The repository includes a **Makefile** that compiles the library:
 2. Link your project with `libftprintf.a`:
 
 ```bash
-gcc your_file.c -L. -lftprintf -o your_program
+cc main.c -L. -lftprintf -o prog
+```
+
+or
+
+```bash
+cc main.c libftprintf.a -o prog
 ```
 
 ---
